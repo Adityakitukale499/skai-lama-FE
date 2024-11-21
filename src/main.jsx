@@ -5,9 +5,9 @@ import { Toaster } from "react-hot-toast";
 import App from "./App.jsx";
 import "./index.css";
 
-const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+const googleClientId =
+  "760290180236-51i4rau99l2cb42qt4kcvgq91u9v4cs6.apps.googleusercontent.com";
 console.log(googleClientId);
-
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
